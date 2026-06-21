@@ -12,7 +12,7 @@ public class NumberFormate {
         NumberFormat cFormat = NumberFormat.getCurrencyInstance(Locale.CHINA);
         String china = cFormat.format(payment);
         
-      Locale indiaLocale = new Locale("en", "IN");
+      Locale indiaLocale = new Locale(  "en", "IN");
         NumberFormat indiaFormat = NumberFormat.getCurrencyInstance(indiaLocale);
         String india = indiaFormat.format(payment);
 
