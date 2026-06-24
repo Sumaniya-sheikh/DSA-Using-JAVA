@@ -8,7 +8,7 @@ public class NumberFormate {
         scanner.close();
         
         NumberFormat usFormat = NumberFormat.getCurrencyInstance(Locale.US);
-        String us = usFormat.format(payment);
+        String us = usFormaldt.format(payment);
         NumberFormat cFormat = NumberFormat.getCurrencyInstance(Locale.CHINA);
         String china = cFormat.format(payment);
         
