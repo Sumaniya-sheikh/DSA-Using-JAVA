@@ -8,7 +8,7 @@ class ContainerWithMostWater {
        int maxArea= 0;
         
         while(left<right){
-            int currArea =  Math.min(arr[left], arr[right])*(right-left);
+            int currArea =  Math.min(arr[left], arr[right]) * (right-left);
             
             maxArea = Math.max(maxArea, currArea);
            if(arr[left]<arr[right])
