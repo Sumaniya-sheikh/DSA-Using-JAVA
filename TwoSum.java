@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class TwoSum  {
     public static void main(String[] args) {
-        int nums[]  = {-4,-1,-2,0,2,3,1,4,5,5};
+        int nums[]  = {-4,1,-2,6,2,3,1,4,5,5};
         int target = 9;
          Arrays.sort(nums);
         int n= nums.length;
