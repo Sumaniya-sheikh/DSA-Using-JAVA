@@ -4,14 +4,14 @@
 class SlidingWindow {
     //  fixed size
     public static void main(String[] args) {
-     int arr[]={2,3,4 ,5,3, 5,6,7,8};
-      int sum=0, maxSum=0;
+     int arr[]={2,3,4,5,3,5,6,7,8};
+      int sum, maxSum;
       int low =0 , high=1;
       
       sum = arr[low]+arr[high];
         maxSum= sum;
      
-     while(high< arr.length-1){
+     while(high<arr.length-1){
          sum-=arr[low];
          low++;
          high++;

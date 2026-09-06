@@ -41,4 +41,16 @@ class MergeSortedArray {
 
         return (result[total / 2 - 1] + result[total / 2]) / 2.0;
     }
+
+    public static void main(String[] args) {
+
+        int[] nums1 = {1, 3};
+        int[] nums2 = {2,7, 8, 9};
+
+        MergeSortedArray obj = new MergeSortedArray();
+
+        double median = obj.findMedianSortedArrays(nums1, nums2);
+
+        System.out.println("Median: " + median);
+    }
 }
