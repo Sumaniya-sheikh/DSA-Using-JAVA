@@ -20,7 +20,7 @@ public class DutchNationalFlag {
                         // arr[mid] == 2
                         int temp = arr[mid];
                         arr[mid] = arr[high];
-                        arr[high] = temp;
+                        arr[high] = temp; 
                         high--;
                     }
             }
